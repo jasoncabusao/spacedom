@@ -1,5 +1,5 @@
 # HW1: SpaceDOM
-[Link to Website](https://jasoncabusao.github.io/spacedom/space.html).
+[View Website](https://jasoncabusao.github.io/spacedom/space.html).
 
 ## Overview
 In this assignment you will practice creating an abbreviated wiki page about space. Ultimately the goal of the assignment is for you to demonstrate your understanding of Module 1: HTML and CSS. This is also your first assignment where you are expected to follow a more structured homework specification (as opposed to the creative project specifications) for CSE 154.
