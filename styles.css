@@ -1,0 +1,170 @@
+/*
+  Name: Jason Cabusao
+  Date:  April 5, 2024
+  Section: CSE 154 AG: Marina and Alison
+  This is the styles.css page for my abbreviated wiki page about space for homework 1.
+*/
+
+body {
+  background-image: url('img/background.png');
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+header {
+  height: 100vh;
+  /* display: flex; */
+  justify-content: center;
+  /* align-items: center; */
+  /* flex-direction: column; */
+  /* color: #E0DBD7; */
+}
+
+header > h1 {
+  font-family: "Lora", serif;
+  text-transform: uppercase;
+  font-size: 120px;
+  margin-bottom: 0px;
+  text-shadow: 20px 15px 20px #551756;
+}
+
+header > blockquote {
+  margin-top: 0px;
+  font-size: 22px;
+}
+
+footer {
+  /* background-color: #E0DBD7; */
+  width: 100%;
+}
+
+footer p {
+  /* padding: 20px; */
+  /* text-align: center; */
+  vertical-align: middle;
+}
+
+#intro, #facts, #jokes {
+  width: 80%;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#intro, #facts {
+  /* background-color: #E0DBD7; */
+  padding: 30px;
+  border-top: solid 15px #551756;
+  border-bottom: solid 15px #551756;
+}
+
+#intro h2, #facts h2, #jokes h2 {
+  /* text-align: center; */
+  font-size: 35px;
+  text-decoration: underline;
+}
+
+#intro img {
+  width: 24vw;
+  height: 100%;
+  border-radius: 10%;
+  margin: 10px;
+  margin-right: 50px;
+}
+
+#facts p {
+  font-size: 25px;
+}
+
+a:link {
+  color: #FFA605;
+}
+
+a:visited {
+  color: #1B505F;
+}
+
+#jokes-container {
+  /* display: flex; */
+  flex-wrap: wrap;
+  /* align-items: center; */
+  justify-content: space-evenly;
+}
+
+.joke-card {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  margin: 15px;
+  height: 400px;
+  width: 300px;
+  background-color: #9B590D;
+  opacity: 80%;
+  /* padding: 20px; */
+}
+
+.joke-card img {
+  height: 150px;
+  width: 150px;
+}
+
+hr {
+  width: 60%;
+}
+
+.joke-card p {
+  align-self: flex-start;
+  /* font-size: 24px; */
+}
+
+.abr {
+  font-size: 28px;
+  /* color: #E0DBD7; */
+}
+
+.answer {
+  /* font-size: 24px; */
+  visibility: hidden;
+  color: #191818;
+}
+
+.joke-card:hover .answer {
+  visibility: visible;
+}
+
+header, #intro > section, #jokes-container, .joke-card {
+  display: flex;
+}
+
+header, #jokes-container, .joke-card {
+  align-items: center;
+}
+
+header, #jokes h2, #jokes > p, .abr {
+  color: #E0DBD7;
+}
+
+footer p, #intro h2, #facts h2, #jokes h2, #jokes > p {
+  text-align: center;
+}
+
+.joke-card, header {
+  flex-direction: column;
+}
+
+footer, #intro, #facts {
+  background-color: #e0dbd7;
+}
+
+footer p, .joke-card {
+  padding: 20px;
+}
+
+#intro p, #facts li {
+  font-size: 20px;
+}
+
+.joke-card p, .joke-card {
+  font-size: 24px;
+}

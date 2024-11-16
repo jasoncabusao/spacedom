@@ -1,0 +1,65 @@
+/*
+  Name: Jason Cabusao
+  Date:  April 5, 2024
+  Section: CSE 154 AG: Marina and Alison
+  This is the creative.css page for the creative section of my abbreviated wiki page about space.
+*/
+
+#creative {
+  width: 80%;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #dfebf2;
+  padding: 30px;
+  border-radius: 1%;
+  opacity: 95%;
+}
+
+#creative h2 {
+  font-size: 35px;
+  text-align: center;
+}
+
+#creative img {
+  width: 25%;
+  height: 100%;
+  border-radius: 10%;
+}
+
+#creative > p {
+  margin-bottom: 30px;
+}
+
+#dwarf-planets-container {
+  display: flex;
+}
+
+#creative h3, ul {
+  margin-top: 0px;
+}
+
+#dwarf-planets-container section {
+  padding: 20px;
+  padding-top: 0px;
+}
+
+#dwarf-planets-container ul > li {
+  margin-bottom: 10px;
+}
+
+#dwarf-planets-container section p + p {
+  margin-bottom: 5px;
+}
+
+.dwarf-planet-name, #creative h3, #creative h2 {
+  color: #10587f;
+}
+
+.dwarf-planet-name {
+  font-weight: 1000;
+}
+
+#creative h3 {
+  font-size: 25px;
+}
